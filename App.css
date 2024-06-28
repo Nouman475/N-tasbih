@@ -1,0 +1,45 @@
+/*#hero{
+    background-image: url(https://i.pinimg.com/736x/a4/09/0a/a4090af1ff117a47463af24ed841c439.jpg);
+    min-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+}*/
+.fa-plus{
+    font-size: 4rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.fa-plus:hover{
+    background-color: #99ed4f;
+}
+.fa-plus:active{
+    transform: scale(0.9);
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .radio-buttons {
+    margin-top: 20px;
+  }
+  
+  .radio-buttons label {
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .radio-buttons input[type="radio"] {
+    margin-right: 10px;
+  }
+@media (max-width:470px) {
+    #hero img{
+        width: 300px;
+    }
+}
